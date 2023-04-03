@@ -197,7 +197,7 @@ function App() {
                 await disconnectWallet()
             }} variant="outline-light">{connectedStatus ? "Disconnect ❌":"Connect Wallet"}</Button>
         </div>
-        {!connectedStatus && <div className='main'>Blockchain</div>}
+        {!connectedStatus && <div className="main" style={{fontSize:"7rem"}}><div className=''>PAYGENIUS</div> <h3 style={{ textShadow: "0px 0px 0px #ced0d3" }}>Connect Wallet To Launch The Dapp</h3></div>}
         {connectedStatus && (
         <div className='centerpart' >
         <div className='walletinfo'>
